@@ -118,8 +118,8 @@ Pull requests are welcome! Please open an issue first to discuss any major chang
 ## 🚀 Future Implementations
 Here are some ideas to take this project further:
 1. Interactive Web UI
-  - Build a frontend using Streamlit, Gradio, or React for a more user-friendly interface.
-  - Allow drag-and-drop PDF uploads and a live chat experience.
+   - Build a frontend using Streamlit, Gradio, or React for a more user-friendly interface.
+   - Allow drag-and-drop PDF uploads and a live chat experience.
 
 2. Multi-Modal Support
   - Extend beyond PDFs to support Word docs, Excel sheets, and images (OCR).
