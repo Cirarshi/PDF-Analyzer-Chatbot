@@ -51,7 +51,9 @@ pip install -r requirements.txt
 ```
 
 4. Install and run Ollama
+   
 Download Ollama from Ollama’s website
+
 Once installed, pull the Llama 3 model
 ```bash
 ollama pull llama3
