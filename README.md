@@ -35,6 +35,7 @@ cd pdf-analyzer-chatbot
 python -m venv .venv
 ```
 Activate it:
+
 Windows (PowerShell):
 ```bash
 .venv\Scripts\activate
