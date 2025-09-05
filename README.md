@@ -122,29 +122,29 @@ Here are some ideas to take this project further:
    - Allow drag-and-drop PDF uploads and a live chat experience.
 
 2. Multi-Modal Support
-  - Extend beyond PDFs to support Word docs, Excel sheets, and images (OCR).
+   - Extend beyond PDFs to support Word docs, Excel sheets, and images (OCR).
 
 3. Improved Citation Handling
-  - Highlight exact text snippets from the PDF instead of just page numbers.
-  - Add clickable links to jump directly to the referenced section.
+   - Highlight exact text snippets from the PDF instead of just page numbers.
+   - Add clickable links to jump directly to the referenced section.
 
 4. Customizable LLM Options
-  - Let users pick between different local models (e.g., Mistral, Gemma, Llama2/3) depending on hardware.
+   - Let users pick between different local models (e.g., Mistral, Gemma, Llama2/3) depending on hardware.
 
 5. Enhanced Search
-  - Add a hybrid keyword + semantic search for faster and more accurate retrieval.
+   - Add a hybrid keyword + semantic search for faster and more accurate retrieval.
 
 6. Multi-User / Study Group Mode
-  - Deploy as a local or cloud-based service where multiple users can query the same knowledge base.
+   - Deploy as a local or cloud-based service where multiple users can query the same knowledge base.
 
 7. Memory & Notes
-  - Add a feature for saving queries and answers for future revision.
-  - Option to export results into a personal study notebook.
+   - Add a feature for saving queries and answers for future revision.
+   - Option to export results into a personal study notebook.
 
 8. Voice Interface
-  - Integrate speech-to-text and text-to-speech for hands-free usage.
+   - Integrate speech-to-text and text-to-speech for hands-free usage.
 
 9. Fine-Tuned Models
-  - Train embeddings or fine-tune the LLM on domain-specific study material (e.g., law, medicine, engineering).
+   - Train embeddings or fine-tune the LLM on domain-specific study material (e.g., law, medicine, engineering).
 
 ---
