@@ -63,9 +63,9 @@ Keep Ollama running in the background:
 ollama run llama3
 ```
 
-5. Place all your PDFs inside the data/ folder:
+5. Place all your PDFs inside the Content/ folder:
 ```bash
-data/
+Content/
  ├── sample1.pdf
  ├── sample2.pdf
 ```
@@ -87,7 +87,7 @@ Once started, the program will continuously ask for your input.
 .
 ├── app.py                # Main chatbot code
 ├── requirements.txt      # Project dependencies
-├── data/                 # Folder containing your PDFs
+├── Content/              # Folder containing your PDFs
 ├── .venv/                # Virtual environment (ignored in git)
 └── README.md             # Project documentation
 ```
