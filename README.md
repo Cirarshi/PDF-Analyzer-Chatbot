@@ -27,7 +27,7 @@ The project loads your PDF files, indexes them, and allows you to ask questions.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/pdf-analyzer-chatbot.git
+git clone https://github.com/Cirarshi/PDF-Analyzer-Chatbot.git
 cd pdf-analyzer-chatbot
 ```
 ###2. Create a virtual environment
