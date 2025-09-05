@@ -1,0 +1,52 @@
+Project: PDF Q&A with Ollama + LlamaIndex
+============================================================
+
+1. Install prerequisites
+    - Python 3.10+ (recommended, avoid 3.5/3.6 since LlamaIndex doesn’t support them)
+    - Git (optional, but useful)
+    - Ollama (download from https://ollama.com/download?utm_source=chatgpt.com → install & open it)
+
+2. Create project folder
+
+3. Create a virtual environment
+    python -m venv .venv
+    .venv\Scripts\activate
+
+4. Create requirements.txt in the project root with this content (minimal + exact versions):
+
+    # Core LlamaIndex
+    llama-index==0.13.5
+    llama-index-core==0.13.5
+    llama-index-cli==0.5.0
+    llama-index-readers-file==0.5.3
+
+    # Ollama integration
+    llama-index-llms-ollama==0.7.1
+
+    # Local embeddings (HuggingFace)
+    llama-index-embeddings-huggingface==0.6.0
+
+    # PDF support
+    pypdf==4.2.0
+
+    # Utilities
+    numpy<2.0.0
+    tqdm
+
+5. Install dependencies
+    pip install -r requirements.txt
+
+6. Create a folder named data in your project root and put your PDFs inside it.
+
+7. Create app.py and the code
+
+8. Run Ollama
+    ollama run llama3
+
+9. Create and activate virtual environment
+    python -m venv pdfchat
+    source pdfchat/bin/activate   # (Linux/Mac)
+    pdfchat\Scripts\activate     # (Windows)
+
+10. Run your app
+    python app.py
